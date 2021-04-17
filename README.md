@@ -11,3 +11,5 @@ npm install
 ```
 npm run start-dev
 ```
+
+navigate to localhost:3000
