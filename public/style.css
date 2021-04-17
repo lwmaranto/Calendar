@@ -1,0 +1,88 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px #ddd;
+  width: 400px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+button {
+  height: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: #84a59d;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.month-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.month-year {
+  height: 80;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.day-week {
+  height: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: #f6bd60;
+  padding: 1px;
+  background-clip: content-box;
+  border-radius: 5px;
+}
+
+.previous {
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: #f7ede2;
+  padding: 1px;
+  background-clip: content-box;
+  border-radius: 5px;
+}
+
+.current {
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: #f5cac3;
+  padding: 1px;
+  background-clip: content-box;
+  border-radius: 5px;
+}
+
+.next {
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: #f7ede2;
+  padding: 1px;
+  background-clip: content-box;
+  border-radius: 5px;
+}
